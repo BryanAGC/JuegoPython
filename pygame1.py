@@ -30,3 +30,4 @@ gestiona_teclas(teclas)
     cubo.dibujar(VENTANA)
     pygame.display.update()
   quit()
+       
