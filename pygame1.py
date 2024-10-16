@@ -26,7 +26,7 @@ gestiona_teclas(teclas)
   for evento in eventos:
     if evento.type ==pygame.QUIT:
       jugando = False
-
+    VENTANA.fill("black")
     cubo.dibujar(VENTANA)
     pygame.display.update()
   quit()
