@@ -5,7 +5,7 @@ ANCHO = 1000
 ALTO = 800
 VENTANA = pygame.display.set_mode([ANCHO, ALTO])  # Invertí ALTO y ANCHO para que sea correcto
 
-pygame.init()  # Inicializar pygame es importante antes de empezar
+pygame.init()  
 
 jugando = True
 cubo = Cubo(100, 100)
